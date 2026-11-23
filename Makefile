@@ -5,7 +5,7 @@ RUSTC = rustc
 PKG_CONFIG = pkg-config
 
 C_PROGRAMS = file_demo recursive_ls typing process_signal fifo_demo pipe_chat mq_chat shm_copy
-PROGRAMS = $(C_PROGRAMS) matrix_add 
+PROGRAMS = $(C_PROGRAMS) matrix_add notify_server notify_client
 
 .PHONY: all clean
 all: $(addprefix bin/,$(PROGRAMS))
