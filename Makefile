@@ -4,7 +4,7 @@ CPPFLAGS = -D_POSIX_C_SOURCE=200809L -D_FILE_OFFSET_BITS=64
 RUSTC = rustc
 PKG_CONFIG = pkg-config
 
-C_PROGRAMS = 
+C_PROGRAMS = file_demo recursive_ls typing
 PROGRAMS = $(C_PROGRAMS) matrix_add 
 
 .PHONY: all clean
